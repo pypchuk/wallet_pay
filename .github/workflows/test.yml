@@ -45,6 +45,7 @@ jobs:
         
       - name: Lint code
         run: |
+          poetry shell
           ruff walletpay
           mypy --strict walletpay
           
