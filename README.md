@@ -61,8 +61,12 @@ asyncio.run(main())
 1. Python >= 3.11
 
 ## Running tests
-1. Clone repo  
-2. From the root dir run  
+1. Clone repo
+2. Install with dev dependencies
+```commandline
+poetry install --with dev
+```
+3. From the root dir run  
 ```commandline
 pytest tests
 ```
