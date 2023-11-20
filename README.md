@@ -1,5 +1,6 @@
 # Wallet Pay Python API
-https://docs.wallet.tg/pay/
+> [!NOTE]
+> **Wallet Pay** Documentation: https://docs.wallet.tg/pay/
 
 ## Installation
 ```commandline
@@ -80,11 +81,13 @@ pytest tests
 4. Go to examples folder and run them like regular python scripts  
 
 ### Note about webhooks example
-WARNING! For development purposes only!  
-To run webhook example you need dedicated IP address  
-You can use ngrok to test your application:  
-1. Download ngrok and log in
-2. Run `ngrok http 80`
-3. Copy your temporary IP address
-4. Paste it in your merchant settings
-5. !AFTER DEVELOPMENT DON'T FORGET TO REMOVE ADDRESS IN WALLETPAY WEBHOOK SETTINGS PROVIDED FROM NGROK!
+> [!WARNING]
+> For development purposes only! \
+> To run webhook example you need dedicated IP address \
+> You can use ngrok to test your application:
+> - Download ngrok and log in
+> - Run `ngrok http 80`
+> - Copy your temporary IP address
+> - Paste it in your merchant settings
+>
+>  DEVELOPMENT **DON'T FORGET** TO REMOVE ADDRESS IN WALLETPAY WEBHOOK SETTINGS PROVIDED FROM NGROK!
